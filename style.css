@@ -1,0 +1,24 @@
+body{
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f104e9, #243b55);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffff;
+        }
+        .clock-box{
+            background: rgba(255, 255,255,0.1);
+            padding: 40px 60px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+            text-align: center;
+        }
+        .clock{
+            font-size: 48px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #00ffcc;
+            text-shadow: 0 0 10px #f7a335,0 0 20px #f84c66;
+        }
